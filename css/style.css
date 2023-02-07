@@ -1,0 +1,153 @@
+/* RESET */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-top{
+  background-color: #add8e6;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul{
+  gap: 5px;
+  list-style-type: none;
+  display: flex;
+}
+
+.container{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.nav{
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  padding: 0 5px;
+  border: 1px dashed black;
+}
+
+.header-bottom{
+  height: 200px;
+  background-color: #02148b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron{
+  background-color: #ee82ee;
+  height: 150px;
+  width: 50%;
+  border: 1px dashed black;
+}
+
+section{
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.union{
+  height: 150px;
+  border: 1px dashed black;
+  display: flex;
+}
+
+.large-col{
+  background-color: #1e90ff;
+  height: 100%;
+  width: 60%;
+  border: 1px dashed black;
+}
+
+.small-col{
+  background-color: #fec0cb;
+  height: 100%;
+  width: 40%;
+  border: 1px dashed black;
+}
+
+#grey{
+  background-color: #d3d3d3;
+}
+
+.union-grey{
+  height: 150px;
+  border: 1px dashed black;
+  display: flex;
+  flex-direction: row-reverse;
+} 
+
+.big-section{
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d3d3;
+}
+
+.green{
+  height: 200px;
+  background-color: green;
+  border: 1px dashed black;
+}
+
+.salmon{
+  background-color: #f08080;
+  width: calc(100% / 5 * 2);
+  border: 1px dashed black;
+  height: 225px;
+}
+
+.lightgreen{
+  background-color: #20b2aa;
+  width: calc(100% / 5);
+  border: 1px dashed white;
+  height: 225px;
+}
+
+.section-special{
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  padding-top: 5px;
+}
+
+.darkgrey{
+  background-color: #23272a;
+  border-bottom: 1px solid white;
+}
+
+footer{
+  background-color: #23272a;
+  padding: 10px 0;
+}
+
+.footer{
+  height: 30px;
+  background-color: #7ffed4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo, .bottone{
+  background-color: #d3d3d3;
+  border: 1px dashed black;
+  padding: 5px;
+  height: 15px;
+  font-size: 10px;
+  line-height: 4px;
+}
